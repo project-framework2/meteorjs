@@ -18,7 +18,7 @@ Meteor.startup(function() {
       });
 
       var user0Id = Meteor.users.findOne({username: 'Administrateur'})._id;
-
+	// Initialisation d'un message
       musics.insert({
         Name: "Music test - Test - BPM ",
         musicPost: "Un premier son",

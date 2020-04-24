@@ -1,2 +1,2 @@
 # meteorjs
-Framework MeterJS..
+Framework MeterJS
