@@ -1,0 +1,20 @@
+<template name="sidebar">
+	<aside class="sidebar-left">
+	<img src="logo.png" class="icon">
+	<a class="company-logo" href="#">METEOR JS</a>
+		<div class="sidebar-links">
+			{{#if currentUser}}
+			<a class="link-blue" href="/profile" id="profile-link"><i class="fa fa-user"></i>Profil</a>
+			{{else}}
+			{{/if}}
+			<a class="link-red" href="/msgs" id="msgs-link"><i class="fa fa-comments"></i>Chat</a>
+			<a class="link-yellow" href="/classement" id="classement-link"><i class="fa fa-trophy"></i>Classement</a>
+			<a class="link-green" href="/search" id="search-link"><i class="fa fa-search"></i>Rechercher</a>
+			{{#if currentUser}}
+			<a class="link-purple logout" href="#" id="logout-link"><i class="fa fa-sign-out"></i>Déconnexion</a>
+			{{else}}
+			<a class="" href="/" id="login-link"><i class="fa fa-sign-in"></i>Se connecter</a>
+			{{/if}}
+		</div>
+	</aside>
+</template>

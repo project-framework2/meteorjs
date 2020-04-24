@@ -1,0 +1,28 @@
+<template name="msgForm">
+	{{#if currentUser}}
+	<div id="msgForm-wrap">
+		<center>
+			<form class="msg-post">
+				<h3 class="msgForm-heading">Un avis ?</h3>
+				<label for="msgName" class="sr-only">Sujet</label>
+				<input type="text" name="msgName" id="msgName" class="form-control" placeholder="Sujet" maxlength="40">
+				<label for="msgPost" class="sr-only">Poster un message</label>
+				<input type="text" name="msgPost" id="msgPost" class="form-control" placeholder="Contenu du message" maxlength="140">
+
+				<button class="btn btn-lg btn-success btn-block" type="submit">Poster un message</button>
+			</form>
+		</center>
+	</div>
+	{{else}}
+	<div id="msgForm-wrap">
+		<center>
+			<form class="msg-post">
+				<h2 class="form-signin-heading">Connectez-vous pour poster un message</h2>
+				<a href="/" class="btn btn-md btn-primary" id="login-redir">Se connecter</a>
+			</form>
+		</center>
+	</div>
+	{{/if}}
+
+
+</template>
