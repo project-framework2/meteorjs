@@ -1,7 +1,7 @@
 ## Projet ENSICAEN : framework MeteorJS
-
+```markdown
 [presentation framework]
-
+```
 ### Paquets installés
 
 [liste][paquets]
