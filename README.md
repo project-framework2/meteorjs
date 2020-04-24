@@ -1,11 +1,11 @@
 ## Projet ENSICAEN : framework MeteorJS
-```markdown
+
 [presentation framework]
-```
+
 ### Paquets installés
-
+```markdown
 [liste][paquets]
-
+```
 ### Commandes de base
 
 ```markdown
